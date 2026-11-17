@@ -261,8 +261,8 @@ the last departures stay on screen with the amber **!** next to the timestamp.
 
 The following screenshots were captured on real devices (iPhone 17 Pro simulator):
 
-- [Screenshot_iPhone_1.png](./Screenshot_iPhone_1.png) — App board with no stations yet ("Inga avgångar") and the empty-state message.
-- [Screenshot_iPhone_2.png](./Screenshot_iPhone_2.png) — App board with two stations selected (T-Centralen + Karlsbodavägen), live departures, footer **"Uppdaterad 01:37"**.
+[Screenshot_iPhone_1.png](./Screenshot_iPhone_1.png)
+[Screenshot_iPhone_2.png](./Screenshot_iPhone_2.png)
 - **Widget – Lock Screen** — amber Courier rows on the black background (`.accessoryRectangular`).
 - **Widget – Home Screen small** — same board at `.systemSmall`.
 - **Widget – Home Screen medium** — same board at `.systemMedium`.
