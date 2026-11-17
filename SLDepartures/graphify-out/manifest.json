@@ -1,0 +1,47 @@
+{
+  "Assets.xcassets/AccentColor.colorset/Contents.json": {
+    "mtime": 1794793583.2957377,
+    "seen": 1794871417.724305,
+    "ast_hash": "0c0dc520ec855c55cba93f2a5a32f32c",
+    "semantic_hash": "0c0dc520ec855c55cba93f2a5a32f32c",
+    "ast_empty": true
+  },
+  "Assets.xcassets/AppIcon.appiconset/Contents.json": {
+    "mtime": 1794793583.2957711,
+    "seen": 1794871417.724309,
+    "ast_hash": "67425efba4ad62a4368a0fc76becea74",
+    "semantic_hash": "67425efba4ad62a4368a0fc76becea74",
+    "ast_empty": true
+  },
+  "Assets.xcassets/Contents.json": {
+    "mtime": 1794793583.2957447,
+    "seen": 1794871417.724311,
+    "ast_hash": "9deb2ada1cc834bbebf8bbad9c8978a1",
+    "semantic_hash": "9deb2ada1cc834bbebf8bbad9c8978a1",
+    "ast_empty": true
+  },
+  "ContentView.swift": {
+    "mtime": 1794866848.555884,
+    "seen": 1794871417.724312,
+    "ast_hash": "b02b0b03466454f0d0f9a0a932f04aee",
+    "semantic_hash": "b02b0b03466454f0d0f9a0a932f04aee"
+  },
+  "SLDeparturesApp.swift": {
+    "mtime": 1794793536.8885558,
+    "seen": 1794871417.7243361,
+    "ast_hash": "6088bc8eb6e365deefcbd56192b81f3c",
+    "semantic_hash": "6088bc8eb6e365deefcbd56192b81f3c"
+  },
+  ".claude/hook-log.txt": {
+    "mtime": 1794871453.6743388,
+    "seen": 1794871471.444704,
+    "ast_hash": "7f5f90ff56681f5e416565ecf507046f",
+    "semantic_hash": ""
+  },
+  "Assets.xcassets/AppIcon.appiconset/AppIcon.png": {
+    "mtime": 1794793844.3482819,
+    "seen": 1794871471.4447072,
+    "ast_hash": "9153fbed8249e9dde88d01c427dd69a2",
+    "semantic_hash": ""
+  }
+}

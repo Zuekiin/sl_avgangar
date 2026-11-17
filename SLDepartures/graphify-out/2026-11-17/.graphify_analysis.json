@@ -1,0 +1,122 @@
+{
+  "communities": {
+    "0": [
+      "contentview_boardpreview",
+      "contentview_boardpreview_body",
+      "contentview_contentview",
+      "contentview_contentview_body",
+      "contentview_refreshnoteview",
+      "contentview_refreshnoteview_body",
+      "view"
+    ],
+    "1": [
+      "contentview_instructionsview",
+      "contentview_instructionsview_body",
+      "contentview_steprow",
+      "contentview_steprow_body",
+      "int",
+      "string"
+    ],
+    "2": [
+      "app",
+      "scene",
+      "sldeparturesapp",
+      "sldeparturesapp_sldeparturesapp",
+      "sldeparturesapp_sldeparturesapp_body"
+    ],
+    "3": [
+      "contentview",
+      "contentview_introview",
+      "contentview_introview_body",
+      "swiftui"
+    ]
+  },
+  "cohesion": {
+    "0": 0.38095238095238093,
+    "1": 0.3333333333333333,
+    "2": 0.4,
+    "3": 0.5
+  },
+  "gods": [
+    {
+      "id": "contentview_steprow",
+      "label": "StepRow",
+      "degree": 6
+    },
+    {
+      "id": "contentview_contentview_body",
+      "label": ".body",
+      "degree": 5
+    },
+    {
+      "id": "contentview_boardpreview",
+      "label": "BoardPreview",
+      "degree": 4
+    },
+    {
+      "id": "contentview_contentview",
+      "label": "ContentView",
+      "degree": 4
+    },
+    {
+      "id": "contentview_refreshnoteview",
+      "label": "RefreshNoteView",
+      "degree": 4
+    },
+    {
+      "id": "contentview_instructionsview",
+      "label": "InstructionsView",
+      "degree": 4
+    },
+    {
+      "id": "sldeparturesapp_sldeparturesapp",
+      "label": "SLDeparturesApp",
+      "degree": 4
+    },
+    {
+      "id": "contentview_introview",
+      "label": "IntroView",
+      "degree": 4
+    },
+    {
+      "id": "contentview_instructionsview_body",
+      "label": ".body",
+      "degree": 2
+    },
+    {
+      "id": "sldeparturesapp_sldeparturesapp_body",
+      "label": ".body",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": ".body",
+      "target": "ContentView",
+      "source_files": [
+        "SLDeparturesApp.swift",
+        "ContentView.swift"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `StepRow` connect `StepRow` to `View`, `ContentView.swift`?",
+      "why": "High betweenness centrality (0.305) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `.body`, `.body`, `.body` to the rest of the system?",
+      "why": "4 weakly-connected nodes found - possible missing edges."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ContentView` connect `View` to `SLDeparturesApp`, `ContentView.swift`?",
+      "why": "High betweenness centrality (0.244) - this node is a cross-community bridge."
+    }
+  ]
+}

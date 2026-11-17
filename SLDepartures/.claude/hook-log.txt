@@ -1,0 +1,2 @@
+2026-11-16T23:24:13Z [cc-design] session-start: fired
+2026-11-16T23:24:13Z [cc-design] session-start: update-check=UPGRADE_AVAILABLE 0.5.0 0.10.0

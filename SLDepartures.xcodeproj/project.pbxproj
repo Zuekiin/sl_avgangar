@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BFF4816FE1B3C6185A3073 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594088EF46D19FE69042945F /* AppIntents.framework */; };
+		CC0000000000000000000001 /* SLDeparturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* SLDeparturesApp.swift */; };
+		CC0000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* ContentView.swift */; };
+		CC0000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* Assets.xcassets */; };
+		CC0000000000000000000004 /* SLDeparturesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* SLDeparturesWidget.swift */; };
+		CC0000000000000000000005 /* DepartureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* DepartureProvider.swift */; };
+		CC0000000000000000000006 /* DepartureEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* DepartureEntry.swift */; };
+		CC0000000000000000000007 /* DepartureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000007 /* DepartureModels.swift */; };
+		CC0000000000000000000008 /* DepartureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000008 /* DepartureService.swift */; };
+		CC0000000000000000000009 /* StationCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000009 /* StationCatalog.swift */; };
+		CC000000000000000000000A /* StationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000A /* StationEntity.swift */; };
+		CC000000000000000000000B /* SelectStationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000B /* SelectStationIntent.swift */; };
+		CC000000000000000000000C /* DepartureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000C /* DepartureView.swift */; };
+		CC000000000000000000000D /* SLDeparturesWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB000000000000000000000F /* SLDeparturesWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC000000000000000000000E /* Stations.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000010 /* Stations.json */; };
+		EE0000000000000000000102 /* StationSelectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000002 /* StationSelectionStore.swift */; };
+		EE0000000000000000000103 /* StationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000003 /* StationPickerView.swift */; };
+		EE0000000000000000000104 /* WidgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000004 /* WidgetSetupView.swift */; };
+		EE0000000000000000000105 /* DepartureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000007 /* DepartureModels.swift */; };
+		EE0000000000000000000106 /* DepartureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000008 /* DepartureService.swift */; };
+		EE0000000000000000000107 /* StationCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000009 /* StationCatalog.swift */; };
+		EE0000000000000000000108 /* Stations.json in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000010 /* Stations.json */; };
+		FF0000000000000000000101 /* BoardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0000000000000000000001 /* BoardTheme.swift */; };
+		FF0000000000000000000102 /* DepartureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0000000000000000000002 /* DepartureRowView.swift */; };
+		FF0000000000000000000103 /* StationPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0000000000000000000003 /* StationPanelView.swift */; };
+		FF0000000000000000000104 /* BoardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0000000000000000000001 /* BoardTheme.swift */; };
+		FF0000000000000000000105 /* DepartureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0000000000000000000002 /* DepartureRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA0000000000000000000061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0000000000000000000011;
+			remoteInfo = SLDeparturesWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA0000000000000000000053 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC000000000000000000000D /* SLDeparturesWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		594088EF46D19FE69042945F /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		BB0000000000000000000001 /* SLDeparturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDeparturesApp.swift; sourceTree = "<group>"; };
+		BB0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0000000000000000000004 /* SLDeparturesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDeparturesWidget.swift; sourceTree = "<group>"; };
+		BB0000000000000000000005 /* DepartureProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureProvider.swift; sourceTree = "<group>"; };
+		BB0000000000000000000006 /* DepartureEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureEntry.swift; sourceTree = "<group>"; };
+		BB0000000000000000000007 /* DepartureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureModels.swift; sourceTree = "<group>"; };
+		BB0000000000000000000008 /* DepartureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000009 /* StationCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCatalog.swift; sourceTree = "<group>"; };
+		BB000000000000000000000A /* StationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationEntity.swift; sourceTree = "<group>"; };
+		BB000000000000000000000B /* SelectStationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStationIntent.swift; sourceTree = "<group>"; };
+		BB000000000000000000000C /* DepartureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureView.swift; sourceTree = "<group>"; };
+		BB000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB000000000000000000000E /* SLDepartures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLDepartures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB000000000000000000000F /* SLDeparturesWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SLDeparturesWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000000000000000000010 /* Stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stations.json; sourceTree = "<group>"; };
+		EE0000000000000000000002 /* StationSelectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationSelectionStore.swift; sourceTree = "<group>"; };
+		EE0000000000000000000003 /* StationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPickerView.swift; sourceTree = "<group>"; };
+		EE0000000000000000000004 /* WidgetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSetupView.swift; sourceTree = "<group>"; };
+		FF0000000000000000000001 /* BoardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTheme.swift; sourceTree = "<group>"; };
+		FF0000000000000000000002 /* DepartureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureRowView.swift; sourceTree = "<group>"; };
+		FF0000000000000000000003 /* StationPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPanelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFF4816FE1B3C6185A3073 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC2ED174C07AFF037D32C67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594088EF46D19FE69042945F /* AppIntents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000004 /* SLDepartures */,
+				AA0000000000000000000005 /* SLDeparturesWidget */,
+				FF0000000000000000000004 /* Shared */,
+				AA0000000000000000000003 /* Products */,
+				8DC2ED174C07AFF037D32C67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB000000000000000000000E /* SLDepartures.app */,
+				BB000000000000000000000F /* SLDeparturesWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* SLDepartures */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000001 /* SLDeparturesApp.swift */,
+				BB0000000000000000000002 /* ContentView.swift */,
+				FF0000000000000000000003 /* StationPanelView.swift */,
+				EE0000000000000000000002 /* StationSelectionStore.swift */,
+				EE0000000000000000000003 /* StationPickerView.swift */,
+				EE0000000000000000000004 /* WidgetSetupView.swift */,
+				BB0000000000000000000003 /* Assets.xcassets */,
+			);
+			path = SLDepartures;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000005 /* SLDeparturesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000004 /* SLDeparturesWidget.swift */,
+				BB0000000000000000000005 /* DepartureProvider.swift */,
+				BB0000000000000000000006 /* DepartureEntry.swift */,
+				BB0000000000000000000007 /* DepartureModels.swift */,
+				BB0000000000000000000008 /* DepartureService.swift */,
+				BB0000000000000000000009 /* StationCatalog.swift */,
+				BB000000000000000000000A /* StationEntity.swift */,
+				BB000000000000000000000B /* SelectStationIntent.swift */,
+				BB000000000000000000000C /* DepartureView.swift */,
+				BB0000000000000000000010 /* Stations.json */,
+				BB000000000000000000000D /* Info.plist */,
+			);
+			path = SLDeparturesWidget;
+			sourceTree = "<group>";
+		};
+		FF0000000000000000000004 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FF0000000000000000000001 /* BoardTheme.swift */,
+				FF0000000000000000000002 /* DepartureRowView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000010 /* SLDepartures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000031 /* Build configuration list for PBXNativeTarget "SLDepartures" */;
+			buildPhases = (
+				AA0000000000000000000050 /* Sources */,
+				AA0000000000000000000051 /* Frameworks */,
+				AA0000000000000000000052 /* Resources */,
+				AA0000000000000000000053 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000060 /* PBXTargetDependency */,
+			);
+			name = SLDepartures;
+			productName = SLDepartures;
+			productReference = BB000000000000000000000E /* SLDepartures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000011 /* SLDeparturesWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000032 /* Build configuration list for PBXNativeTarget "SLDeparturesWidget" */;
+			buildPhases = (
+				AA0000000000000000000054 /* Sources */,
+				AA0000000000000000000055 /* Frameworks */,
+				AA0000000000000000000056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLDeparturesWidget;
+			productName = SLDeparturesWidget;
+			productReference = BB000000000000000000000F /* SLDeparturesWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					AA0000000000000000000010 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AA0000000000000000000011 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000030 /* Build configuration list for PBXProject "SLDepartures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sv,
+			);
+			mainGroup = AA0000000000000000000002;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000010 /* SLDepartures */,
+				AA0000000000000000000011 /* SLDeparturesWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0000000000000000000003 /* Assets.xcassets in Resources */,
+				EE0000000000000000000108 /* Stations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC000000000000000000000E /* Stations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0000000000000000000001 /* SLDeparturesApp.swift in Sources */,
+				CC0000000000000000000002 /* ContentView.swift in Sources */,
+				EE0000000000000000000102 /* StationSelectionStore.swift in Sources */,
+				EE0000000000000000000103 /* StationPickerView.swift in Sources */,
+				EE0000000000000000000104 /* WidgetSetupView.swift in Sources */,
+				FF0000000000000000000101 /* BoardTheme.swift in Sources */,
+				FF0000000000000000000102 /* DepartureRowView.swift in Sources */,
+				FF0000000000000000000103 /* StationPanelView.swift in Sources */,
+				EE0000000000000000000105 /* DepartureModels.swift in Sources */,
+				EE0000000000000000000106 /* DepartureService.swift in Sources */,
+				EE0000000000000000000107 /* StationCatalog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0000000000000000000004 /* SLDeparturesWidget.swift in Sources */,
+				CC0000000000000000000005 /* DepartureProvider.swift in Sources */,
+				CC0000000000000000000006 /* DepartureEntry.swift in Sources */,
+				CC0000000000000000000007 /* DepartureModels.swift in Sources */,
+				CC0000000000000000000008 /* DepartureService.swift in Sources */,
+				CC0000000000000000000009 /* StationCatalog.swift in Sources */,
+				CC000000000000000000000A /* StationEntity.swift in Sources */,
+				CC000000000000000000000B /* SelectStationIntent.swift in Sources */,
+				CC000000000000000000000C /* DepartureView.swift in Sources */,
+				FF0000000000000000000104 /* BoardTheme.swift in Sources */,
+				FF0000000000000000000105 /* DepartureRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0000000000000000000011 /* SLDeparturesWidget */;
+			targetProxy = AA0000000000000000000061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SL Avgångar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SLDepartures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SL Avgångar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SLDepartures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SLDeparturesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SLDepartures.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SLDeparturesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SLDepartures.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000030 /* Build configuration list for PBXProject "SLDepartures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000040 /* Debug */,
+				AA0000000000000000000041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000031 /* Build configuration list for PBXNativeTarget "SLDepartures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000042 /* Debug */,
+				AA0000000000000000000043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000032 /* Build configuration list for PBXNativeTarget "SLDeparturesWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000044 /* Debug */,
+				AA0000000000000000000045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
