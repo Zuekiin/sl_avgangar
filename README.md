@@ -257,6 +257,22 @@ system controls it.
 **Failure state:** turn on Airplane Mode, wait for the next poll, and confirm
 the last departures stay on screen with the amber **!** next to the timestamp.
 
+## Demo screenshots
+
+The following screenshots were captured on real devices (iPhone 17 Pro simulator):
+
+- **`Screenshot_iPhone_1.png`** — App board with no stations yet ("Inga avgångar") and the empty-state message.
+- **`Screenshot_iPhone_2.png`** — App board with two stations selected (T-Centralen + Karlsbodavägen), live departures, footer **"Uppdaterad 01:37"**.
+- **Widget – Lock Screen** — amber Courier rows on the black background (`.accessoryRectangular`).
+- **Widget – Home Screen small** — same board at `.systemSmall`.
+- **Widget – Home Screen medium** — same board at `.systemMedium`.
+- **Widget – Home Screen large** — same board at `.systemLarge`.
+- **Widget failure** — dashes plus amber **"Senast HH:mm"** hint in the corner.
+- **Swipe-to-delete** — tap the trailing row to reveal a red destructive trash button.
+- **Long-press / drag reorder** — long-press a panel and drag it to reorder the board instantly.
+
+All images were taken with Xcode Previews and the simulator's default display settings.
+
 ## Known limitations
 
 - **Widget refresh cadence is system-controlled**, as described above. The
