@@ -261,8 +261,8 @@ the last departures stay on screen with the amber **!** next to the timestamp.
 
 The following screenshots were captured on real devices (iPhone 17 Pro simulator):
 
-![Screenshot_iPhone_1.png](./Screenshot_iPhone_1.png)
-![Screenshot_iPhone_2.png](./Screenshot_iPhone_2.png)
+| <img src="./Screenshot_iPhone_1.png" alt="Descriptive alt text" width="300"> | <img src="./Screenshot_iPhone_2.png" alt="Descriptive alt text" width="300"> |
+
 - **Widget – Lock Screen** — amber Courier rows on the black background (`.accessoryRectangular`).
 - **Widget – Home Screen small** — same board at `.systemSmall`.
 - **Widget – Home Screen medium** — same board at `.systemMedium`.
